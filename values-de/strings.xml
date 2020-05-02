@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 <string name="action_settings">Einstellungen</string>
 <string name="length">Maße</string>
 <string name="weight">Gewicht</string>
@@ -298,3 +300,5 @@
 <string name="tip_per_person">Tipp pro Person:% 1 $ s</string>
 <string name="settings_columns_title">Säulen</string>
 <string name="please_purchase">Bitte kaufen Sie die offizielle Version von unitMeasure aus dem Google Play Store</string>
+</resources>
+</xml>
