@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">unitMeasure</string>
+    <!--Main Screen-->
+    <string name="action_settings">Settings</string>
+    <string name="length">Length</string>
+    <string name="weight">Mass</string>
+    <string name="time">Time</string>
+    <string name="digital">Digital</string>
+    <string name="volume">Volume</string>
+    <string name="fuel">Fuel</string>
+    <string name="torque">Torque</string>
+    <string name="area">Area</string>
+    <string name="pressure_detail">Pressure</string>
+    <string name="temperature_activity">Temperature</string>
+    <string name="programmer_activity">Programmer</string>
+    <string name="speed">Speed</string>
+    <string name="energy">Energy</string>
+    <string name="angle">Angle</string>
+    <string name="electricity">Charge</string>
+    <string name="fuel_activity">Fuel Economy</string>
+    <!--hint-->
+    <string name="input_a_number">Input a Number</string>
+    <!--Sort Categories-->
+    <string name="sort">Sort By</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="type">Type</string>
+    <!--Conversion Tap/Long Click Actions-->
+    <string name="copied">Copied</string>
+    <string name="clipboard">to Clipboard</string>
+    <string name="swapped">Swapped to:</string>
+    <!--Duration Specific-->
+    <string name="date">Date</string>
+    <string name="date_activity">Date Calculation</string>
+    <string name="original_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="result_view">Results</string>
+    <!-- Date specific strings  -->
+    <!-- Sharing these resources between time converter and dat activity-->
+    <string name="day_date_activity">Day</string>
+    <string name="days_date_activity">Days</string>
+    <string name="hour_date_activity">Hour</string>
+    <string name="hours_date_activity">Hours</string>
+    <string name="minute_date_activity">Minute</string>
+    <string name="minutes_date_activity">Minutes</string>
+    <string name="years_date_activity">Years</string>
+    <string name="year_date_activity">Year</string>
+    <string name="month_date_activity">Month</string>
+    <string name="months_date_activity">Months</string>
+    <string name="week_date_activity">Week</string>
+    <string name="weeks_date_activity">Weeks</string>
+    <!--Date Specific Categories (Spinner)-->
+    <string name="date_diff">Date Difference</string>
+    <string name="date_dur">Date Duration</string>
+    <string name="time_diff">Time Difference</string>
+    <string name="time_dur">Time Duration</string>
+    <!--Date Specific (Results)-->
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="difference">Difference</string>
+    <!--All Standard Units-->
+    <!--Area Measurements-->
+    <string name="sq_kilo_area">Sq Kilometers</string>
+    <string name="sq_meters_area">Sq Meters</string>
+    <string name="sq_miles_area">Sq Miles</string>
+    <string name="sq_yards_area">Sq Yards</string>
+    <string name="sq_feet_area">Sq Feet</string>
+    <string name="sq_inches_area">Sq Inches</string>
+    <string name="hectares_area">Hectares</string>
+    <string name="acres_area">Acres</string>
+    <!--Programmer Measurements-->
+    <string name="binary_program">Binary</string>
+    <string name="octal_program">Octal</string>
+    <string name="decimal_program">Decimal</string>
+    <string name="hexadecimal_program">Hexadecimal</string>
+    <!--Programmer Measurements Shortened-->
+    <string name="binary_program_short">BIN:</string>
+    <string name="octal_program_short">OCT:</string>
+    <string name="decimal_program_short">DEC:</string>
+    <string name="hexadecimal_program_short">HEX:</string>
+    <!--Angle Measurements-->
+    <string name="degrees_angle">Degrees</string>
+    <string name="gradians_angle">Gradians</string>
+    <string name="minutes_angle">Minutes</string>
+    <string name="mils_angle">Mils</string>
+    <string name="quadrants_angle">Quadrants</string>
+    <string name="radians_angle">Radians</string>
+    <string name="revolutions_angle">Revolutions</string>
+    <string name="seconds_angle">Seconds</string>
+    <!--Torque Measurements-->
+    <string name="pound_feet_torque">ft-lbf</string>
+    <string name="pound_inches_torque">in-lbf</string>
+    <string name="newton_meters_torque">Newton-Meters</string>
+    <string name="kilogram_meters_torque">Kilogram-Meters</string>
+    <string name="dyne_centimeters_torque">Dyne-Centimeters</string>
+    <!--Digital Measurements-->
+    <string name="bits_digital">Bits</string>
+    <string name="bytes_digital">Bytes</string>
+    <string name="kb_digital">Kilobytes</string>
+    <string name="mb_digital">Megabytes</string>
+    <string name="gb_digital">Gigabytes</string>
+    <string name="tb_digital">Terabytes</string>
+    <string name="pb_digital">Petabytes</string>
+    <string name="kilobits_digital">Kilobits</string>
+    <string name="megabits_digital">Megabits</string>
+    <string name="gigabits_digital">Gigabits</string>
+    <!--Energy Measurements-->
+    <string name="joules_energy">Joules</string>
+    <string name="kilojoules_energy">Kilojoules</string>
+    <string name="calories_energy">Calories</string>
+    <string name="kilocalories_energy">Kilocalories</string>
+    <string name="inch_pounds_energy">in-lbf</string>
+    <string name="foot_pounds_energy">ft-lbf</string>
+    <string name="megawatt_hours_energy">Megawatt-Hours</string>
+    <string name="kilowatt_hours_energy">Kilowatt-Hours</string>
+    <string name="electron_volts_energy">Electron Volts</string>
+    <string name="btus_energy">BTUs</string>
+    <string name="barrels_oil_energy">Barrels of Oil</string>
+    <string name="hp_us_energy">HP US</string>
+    <string name="hp_metric_energy">HP Metric</string>
+    <!--Length Measurements-->
+    <string name="inches_length">Inches</string>
+    <string name="centimeters_length">Centimeters</string>
+    <string name="feet_length">Feet</string>
+    <string name="yards_length">Yards</string>
+    <string name="meters_length">Meters</string>
+    <string name="miles_length">Miles</string>
+    <string name="kilometers_length">Kilometers</string>
+    <string name="picometers_length">Picometer</string>
+    <string name="millimeters_length">Millimeters</string>
+    <string name="light_years_length">Light-years</string>
+    <!--Pressure Measurements-->
+    <string name="pascals_pressure">Pascals</string>
+    <string name="megapascals_pressure">Megapascals</string>
+    <string name="kilopascals_pressure">Kilopascals</string>
+    <string name="psi_pressure">PSI</string>
+    <string name="psf_pressure">PSF</string>
+    <string name="atmospheres_pressure">Atmospheres</string>
+    <string name="bars_pressure">Bars</string>
+    <string name="mmhg_pressure">mmHg</string>
+    <string name="inhg_pressure">inHg</string>
+    <!--Speed Measurements-->
+    <string name="kmh_speed">Kilometers/hour</string>
+    <string name="mph_speed">Miles/hour</string>
+    <string name="meters_second_speed">Meters/second</string>
+    <string name="feet_second_speed">Feet/second</string>
+    <string name="knots_speed">Knots</string>
+    <string name="mach_speed">Mach</string>
+    <!--Temperature Measurements-->
+    <string name="fahrenheit_temp">° Fahrenheit</string>
+    <string name="celsius_temp">° Celsius</string>
+    <string name="kelvin_temp">Kelvin</string>
+    <string name="rankine_temp">° Rankine</string>
+    <string name="réaumur_temp">° Réaumur</string>
+    <!--Time Specific Measurements-->
+    <!--  Some are shared with date activity  -->
+    <string name="milliseconds_time">Milliseconds</string>
+    <string name="seconds_time">Seconds</string>
+    <string name="fortnights_time">Fortnights</string>
+    <string name="decades_time">Decades</string>
+    <string name="centuries_time">Centuries</string>
+    <!--Volume Measurements-->
+    <!--US-->
+    <string name="teaspoons_volume">Teaspoons</string>
+    <string name="tablespoons_volume">Tablespoons</string>
+    <string name="cups_volume">Cups</string>
+    <string name="fluid_ounces_volume">Fluid Ounces</string>
+    <string name="pints_volume">Pints</string>
+    <string name="quarts_volume">Quarts</string>
+    <string name="gallons_volume">Gallons</string>
+    <!--UK-->
+    <string name="teaspoons_us_volume">Teaspoons US</string>
+    <string name="teaspoons_uk_volume">Teaspoons UK</string>
+    <string name="tablespoons_us_volume">Tablespoons US</string>
+    <string name="tablespoons_uk_volume">Tablespoons UK</string>
+    <string name="cups_us_volume">Cups US</string>
+    <string name="cups_uk_volume">Cups UK</string>
+    <string name="fluid_ounces_us_volume">Fluid Ounces US</string>
+    <string name="fluid_ounces_uk_volume">Fluid Ounces UK</string>
+    <string name="pints_us_volume">Pints US</string>
+    <string name="pints_uk_volume">Pints UK</string>
+    <string name="quarts_us_volume">Quarts US</string>
+    <string name="quarts_uk_volume">Quarts UK</string>
+    <string name="gallons_us_volume">Gallons US</string>
+    <string name="gallons_uk_volume">Gallons UK</string>
+    <!--Everywhere-->
+    <string name="milliliters_volume">Milliliters</string>
+    <string name="liters_volume">Liters</string>
+    <string name="cubic_feet_volume">Cubic Feet</string>
+    <string name="cubic_centimeters_volume">Cubic Centimeters</string>
+    <!--Weight Measurements-->
+    <!--US-->
+    <string name="ounces_weight">Ounces</string>
+    <string name="grams_weight">Grams</string>
+    <string name="kilograms_weight">Kilograms</string>
+    <string name="pounds_weight">Pounds</string>
+    <string name="metric_tons_weight">Metric Tons</string>
+    <string name="tons_weight">Tons</string>
+    <!--UK-->
+    <string name="ounces_us_weight">Ounces US</string>
+    <string name="stones_uk_weight">Stones UK</string>
+    <string name="tons_us_weight">Tons US</string>
+    <string name="slugs_weight">Slugs</string>
+    <!--Fuel Measurements-->
+    <!--US-->
+    <string name="mpg_fuel">Miles/gallon</string>
+    <string name="km_l_fuel">Kilometers/liter</string>
+    <string name="l_100_KM_fuel">Liters/100 km</string>
+    <string name="g_100_MI_fuel">Gallons/100 mi</string>
+    <!--UK-->
+    <string name="mpg_US_fuel">Miles/gallon US</string>
+    <string name="mpg_UK_fuel">Miles/gallon UK</string>
+    <string name="g_100_MI_US_fuel">Gallon/100 mi US</string>
+    <string name="mi_l_UK_fuel">Miles/liter UK</string>
+    <!--Electric Charge -->
+    <string name="milliampere_hours">Milliampere Hours</string>
+    <string name="ampere_hours">Ampere Hours</string>
+    <string name="ampere_minutes">Ampere Minutes</string>
+    <string name="ampere_seconds">Ampere Seconds</string>
+    <string name="coulombs">Coulombs</string>
+    <string name="franklins">Franklins</string>
+    <string name="farad">Farad Volts</string>
+    <string name="faraday">Faraday (C-12)</string>
+    <string name="electron">Electron Charge</string>
+    <string name="emu">EMU</string>
+    <string name="esu">ESU</string>
+    <!--Dialogs-->
+    <!--Help Dialog-->
+    <string name="help">Help</string>
+    <string name="help_detail">Welcome to unitMeasure. I designed this app with simplicity in mind. Click on a category to jump into your conversions. To change units, click on the dropdown menu and select a different one. Alternatively, long tap on a unit in the results area to switch units. To copy results to your keyboard, just short tap on a result.</string>
+    <!--Data Dialog-->
+    <string name="data_detail">There are two schools of thought when it comes to Digital Storage. Be default, the app does by 1 Gigabyte
+        is equal to 1024 Regular Megabytes.
+        You can change it to the SI version, by going to settings -> Data -> Switch to SI Units for Digital Storage</string>
+    <!--Settings Category Headers-->
+    <string name="general">General</string>
+    <string name="design">Design</string>
+    <string name="data_header">Data</string>
+    <string name="license">Legal</string>
+    <!--Inner Settings Titles-->
+    <string name="pref_header_about">About me</string>
+    <string name="summary_about">Independent App Developer, YouTuber, and Tech Personality.
+        I love to innovate and provide useful applications to all of my amazing users!</string>
+    <string name="summary_support">Got any queries? I am  happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions_settings">Terms and Conditions</string>
+    <string name="title_version">Version</string>
+    <string name="rate_us">Rate me!</string>
+    <string name="site">unitMeasure Website</string>
+    <string name="check_website">Check out unitMeasure\'s website</string>
+    <string name="youtube">YouTube Channel</string>
+    <string name="subscribe">Subscribe to me on YouTube</string>
+    <!--Share Option-->
+    <string name="share_unitmeasure_prefs">Share unitMeasure</string>
+    <string name="share_app_prefs">Share app via</string>
+    <string name="share_app_text">unitMeasure: Offline Converter is a wonderful app for converting units and measurements
+        https://play.google.com/store/apps/details?id=com.aviparshan.converter</string>
+    <string name="share_summary_prefs">Share the app with your friends</string>
+    <string name="reset_prefs">Resets Settings to Default (Experimental)</string>
+    <string name="reset_prefs_summary">unitMeasure will start from scratch with default settings</string>
+    <!--data setting-->
+    <string name="data_si">Switch to SI Units for Data Storage</string>
+    <string name="data_si_summary">By turning this on, you swap the Regular Data Storage Units for SI Data Storage Units.
+        1 Gigabyte is equal to 1024 Regular Megabytes, or it is equal to 1000 SI Megabytes</string>
+    <!--Border Choices-->
+    <string name="show_border">Show Borders</string>
+    <string name="border_summary">Adds a small frame between each item.</string>
+    <!--Switch Actions-->
+    <string name="swap_settings">Switch Tap and Long Click Actions</string>
+    <string name="swap_settings_summary">By default, click copies the results to your keyboard and long tap swaps units.
+        Enabling this setting will switch those actions.</string>
+    <string name="title_hides_uk">Hide UK Measurements</string>
+    <string name="summary_hides_uk">By turning this on, the UK measurements will be hidden.
+        This will impact the following activities: Volume, Mass/Weight, &amp; Fuel.</string>
+    <string name="disable_anim">Disable Animations</string>
+    <string name="anim_summary">Disabling the animations and transitions may make the app appear to load faster but may have a flickering effect</string>
+    <!--Legal-->
+    <string name="UnitOf_lics">Measurements are converted using UnitOf © 2018 DIGIDEMIC, LLC under the Apache License 2.0.</string>
+    <string name="JodaTime_summary">Date conversions are using Joda-Time © 2018 under the Apache License 2.0</string>
+    <string name="icons_summary">The majority of icons within this app are using Google\'s Material Icons
+        (© 2018 under the Apache License 2.0) and Material Design Icons (© 2018 under the SIL Open Font License 1.1)</string>
+    <!--Theme Choices-->
+    <string name="title_dark">Themes</string>
+    <string name="light_mode_theme">Light Theme</string>
+    <string name="dark_mode_theme">Dark Theme</string>
+    <string name="amoled_mode_theme">AMOLED Theme</string>
+    <!--Errors-->
+    <string name="zero_warning">Binary numbers cannot start with zero</string>
+    <string name="error_report">Error 325 with the unit selection, please report this to the app\'s developer with some additional information</string>
+    <string name="error_header">Whoops, Something went wrong</string>
+    <string name="emulator542">Code 542: unitMeasure cannot run in an emulator,
+        Please download the app from the Play Store on a physical device to continue using this app.</string>
+    <string name="uninstall_app">Uninstall the App</string>
+    <string name="open_play">Open Play Store</string>
+    <string name="error739">Code 739: unitMeasure ran into an issue.
+        Please uninstall this version and download the Official unitMeasure app from the Play Store to continue.</string>
+    <string name="send_error_report">Send Error Report</string>
+    <string name="error_toast_programmer">Please screenshot and contact Developer - Error:</string>
+    <string name="email_helper_not_found">Couldn\'t find an e-mail app, install g-mail or another client and try again</string>
+    <string name="settings_share_error">Couldn\'t find an app to share</string>
+    <!--licensing-->
+    <string name="unitmeasure_is_not_licensed">unitMeasure encountered an issue</string>
+    <string name="unit_measure_licensed_body">There is an issue with the app licensing,
+        please purchase and install the legitimate app "unitMeasure: Offline Converter" from the Google Play Store.
+        If you believe this message has been wrongly reported, please contact me through my e-mail for further clarification.</string>
+    <string name="playLink">Play Store: https://play.google.com/store/apps/details?id=com.aviparshan.converter</string>
+    <string name="email">E-Mail: avip3d+unitMeasure@gmail.com</string>
+    <!--Programmer-->
+    <!--Delete Button-->
+    <string name="back_button">Delete Button</string>
+    <!--Shortcuts-->
+    <string name="settings_disabled">Settings Shortcut has been disabled</string>
+    <string name="date_disabled">Date Shortcut has been disabled</string>
+    <string name="programmer_disabled">Programmer Shortcut has been disabled</string>
+    <string name="tip_disabled">Tip Shortcut has been disabled</string>
+    <string name="programmer_long">Programmer Converter</string>
+    <string name="settings_long">App Settings</string>
+    <string name="date_long">Date Difference</string>
+    <string name="review_summary_play">It would mean a lot to me if you could tell the world how awesome the app is!</string>
+    <string name="debug_mode_dialog">Debug Mode</string>
+    <string name="debug_mode_alert_string">You are in debug mode, features aren\'t final, and the numbers may be off. Recommended to uninstall the app and reinstall from the play store</string>
+    <string name="review_body_rate">If you enjoy using unitMeasure, please take a moment to rate it. Thanks for your support!</string>
+    <string name="email_feedback_subject">unitMeasure Feedback/Help</string>
+    <string name="enjoying_unit_measure_rate">Are you enjoying unitMeasure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="remind_later_rate">Remind Me Later</string>
+    <string name="settings_decimal_places_label">Decimal Places</string>
+    <string name="settings_decimal_places_default" translatable="false">4</string>
+    <!--Decimal place setting labels-->
+    <string name="settings_one_decimal_label" translatable="false">1</string>
+    <string name="settings_two_decimal_label" translatable="false">2</string>
+    <string name="settings_three_decimal_label" translatable="false">3</string>
+    <string name="settings_four_decimal_label" translatable="false">4</string>
+    <string name="settings_five_decimal_label" translatable="false">5</string>
+    <string name="settings_six_decimal_label" translatable="false">6</string>
+    <string name="settings_seven_decimal_label" translatable="false">7</string>
+    <string name="settings_eight_decimal_label" translatable="false">8</string>
+    <string name="settings_nine_decimal_label" translatable="false">9</string>
+    <string name="settings_ten_decimal_label" translatable="false">10</string>
+    <!--Decimal place setting values-->
+    <string name="settings_one_decimal_value" translatable="false">1</string>
+    <string name="settings_two_decimal_value" translatable="false">2</string>
+    <string name="settings_three_decimal_value" translatable="false">3</string>
+    <string name="settings_four_decimal_value" translatable="false">4</string>
+    <string name="settings_five_decimal_value" translatable="false">5</string>
+    <string name="settings_six_decimal_value" translatable="false">6</string>
+    <string name="settings_seven_decimal_value" translatable="false">7</string>
+    <string name="settings_eight_decimal_value" translatable="false">8</string>
+    <string name="settings_nine_decimal_value" translatable="false">9</string>
+    <string name="settings_ten_decimal_value" translatable="false">10</string>
+    <!--clipdata-->
+    <string name="num" translatable="false">Number</string>
+    <!--Programmer Hints-->
+    <string name="binary_reqs" translatable="false">0–1</string>
+    <string name="octal_reqs" translatable="false">0–7</string>
+    <string name="decimal_reqs" translatable="false">0–9</string>
+    <string name="hex_reqs" translatable="false">A–F &amp; 0–9</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="_1" translatable="false">1</string>
+    <!--links-->
+    <string name="website" translatable="false">https://www.aviparshan.com/unitmeasure</string>
+    <string name="privacy_url" translatable="false">https://aviparshan.com/unitmeasure/privacy-policy.html</string>
+    <string name="terms_conditions_url" translatable="false">https://aviparshan.com/unitmeasure/terms-conditions.html</string>
+    <string name="youtube_url" translatable="false">https://www.youtube.com/channel/UCYzocrbgFApPAGhq7PAw9Gw</string>
+    <string name="material_icons_site" translatable="false">https://materialdesignicons.com/</string>
+    <string name="unit_of_link" translatable="false">https://github.com/Digidemic/UnitOf</string>
+    <string name="joda_time_url" translatable="false">https://github.com/JodaOrg/joda-time</string>
+    <!--keys-->
+    <string name="key_version" translatable="false">key_version</string>
+    <string name="key_data" translatable="false">key_data</string>
+    <string name="key_reset" translatable="false">key_reset</string>
+    <string name="key_theme" translatable="false">key_theme</string>
+    <string name="key_decimals" translatable="false">key_decimals</string>
+    <string name="key_uk" translatable="false">key_uk</string>
+    <string name="key_send_feedback" translatable="false">key_send_feedback</string>
+    <string name="key_sort" translatable="false">key_sort</string>
+    <string name="app_version" translatable="false">Name %1$s, Code: %2$d</string>
+    <string name="key_border" translatable="false">key_border</string>
+    <string name="key_share_app" translatable="false">key_share_app</string>
+    <string name="key_swap" translatable="false">key_swap</string>
+    <string name="key_rate_app" translatable="false">key_rate_app</string>
+    <string name="key_animations" translatable="false">key_animations</string>
+    <string name="key_unit_hidden" translatable="false">key_unit_hidden</string>
+    <string name="settings_tip_people_default" translatable="false">1</string>
+    <string name="settings_tip_percent_default" translatable="false">15</string>
+    <string name="key_tip_people" translatable="false">key_tip_people</string>
+    <string name="key_tip_percent" translatable="false">key_tip_percent</string>
+    <string name="key_pref_columns" translatable="false">key_pref_columns</string>
+    <string name="settings_columns_default" translatable="false">2</string>
+    <string name="settings_tip_people_label">Default Number of People</string>
+    <string name="settings_tip_percent_label">Default Tip Percent</string>
+    <!--License-->
+    <string name="joda_android" translatable="false">JodaTime</string>
+    <string name="icons" translatable="false">Material Design Icons</string>
+    <string name="unit_of" translatable="false">UnitOf</string>
+    <!--Programmer Keyboard-->
+    <string name="a" translatable="false">A</string>
+    <string name="b" translatable="false">B</string>
+    <string name="c" translatable="false">C</string>
+    <string name="d" translatable="false">D</string>
+    <string name="e" translatable="false">E</string>
+    <string name="f" translatable="false">F</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_6" translatable="false">6</string>
+    <string name="_7" translatable="false">7</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_9" translatable="false">9</string>
+    <string name="ce" translatable="false">CE</string>
+
+    <string name="unitMeasure_bug">Encountered a bug on startup</string>
+    <string name="tip">Tip</string>
+    <string name="tip_activity">Tip Calculator</string>
+    <string name="reset_all_tip">Clear All</string>
+    <string name="original_bill">Subtotal:</string>
+    <string name="number_of_people">Number of People:</string>
+    <string name="tip_percent_text">Tip Percent:</string>
+    <string name="total_tip">Total Tip:</string>
+    <string name="your_bill">Bill:</string>
+    <string name="total">Final Bill: %1$s</string>
+    <string name="amount_per_person">Total Per Person: %1$s</string>
+    <string name="tip_per_person">Tip Per Person: %1$s</string>
+    <string name="settings_columns_title">Columns</string>
+    <string name="please_purchase">Please purchase the official version of unitMeasure from the Google Play Store</string>
+</resources>
